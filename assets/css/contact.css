@@ -1,0 +1,48 @@
+
+
+.header-container {
+    background: url(../images/1.jpg) center center / cover no-repeat !important;
+    height: 100vh;
+    margin-bottom: 0px !important;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 81%, 50% 100%, 0 80%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 81%, 50% 100%, 0 80%);
+    color: white;
+}
+
+.contact-form {
+    background: #c88c4c;
+}
+
+.parent-container
+.header-motto 
+.small-txt {
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 0;
+    font-weight: lighter;
+    color: white;
+}
+
+.parent-container
+.header-motto 
+.big-txt {
+    font-size: 80px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+form {
+    padding: 40px;
+    color: white;
+}
+
+form
+.form-control {
+    background: #a27443;
+}
+
+.color-pink {
+    background: #c88c4c;
+}
