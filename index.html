@@ -1,0 +1,187 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+        <title>Vibrant | Macarons</title>
+
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+        <!-- external stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Concert+One|Mandali|Noto+San&display=swap" rel="stylesheet">
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
+        crossorigin="anonymous">
+
+        <!-- script -->
+		<script src="assets/js/script.js"></script>
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+
+        <div class="parent-container">
+                <div class="menu-overlay"></div>
+                
+                <div class="side-menu-wrapper">
+                    <a href="#" class="menu-close">×</a>
+                    <ul>
+                        <li><a href="http://www.google.com" target="_blank" rel="nofollow">Shop</a></li>
+                        <li><a href="http://www.yahoo.com" target="_blank" rel="nofollow">Blog</a></li>
+                        <li><a href="contact.html" target="_blank" rel="nofollow">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="container-fluid header-container">
+                    <div class="row" style="height: 100%">
+
+                        <div class="col-md-12 top-logo-menu">
+                            <div class="logo">
+                                <a href="index.html">Vibrant</a>
+                            </div>
+                            <div class="menu-btn">
+                                <a href="#" class="menu-open"><i class="fas fa-2x fa-bars"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 offset-md-1 header-motto">
+                            <div>
+                                <p class="small-txt">THERE'S NO SUCH THING AS </p>
+                                <p class="big-txt">TOO MUCH SUGAR</p>
+                                <p class="txt">A balanced diet is having a dessert in each hand. Explore our shop for a scrumptious dessert today.</p>
+                                <br>
+                                <a href="#" class="btn btn-outline-light" role="button">SHOP NOW</a>
+                            </div>
+                        </div>
+                        <div class="col-md-5 header-image">
+                            <img src="assets/images/macarons/1.png" alt="macaroons">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid sweet-items">
+                    <div class="row">
+
+                        <!-- #ebeaf0 -->
+                        <div class="col-md-4">
+                            <div class="item-c c-1">
+                                <h5>SUMMER SPRINKLES</h5>
+                                <p>Smothered with sprinkles.</p>
+                                <figure>
+                                    <img src="assets/images/macarons/2.png" alt="1">
+                                </figure>
+                            </div>
+                        </div>
+
+                        <!-- #9796dd -->
+                        <div class="col-md-4">
+                            <div class="item-c c-2">
+                                <h5>UNICORN FLAIR</h5>
+                                <p>Tasty and airy</p>
+                                <figure>
+                                    <img src="assets/images/macarons/3.png" alt="6">
+                                </figure>
+                            </div>
+                        </div>
+
+                        <!-- #fdaac5 -->
+                        <div class="col-md-4">
+                            <div class="item-c c-3">
+                                <h5>FLORAL SUGAR</h5>
+                                <p>Perfect for your sweet tooth</p>
+                                <figure>
+                                    <img src="assets/images/macarons/4.png" alt="5">
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="reminder">
+                                <p>None of these contains gluten... so everyone can enjoy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid mailing">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>JOIN OUR MAILING LIST</h4>
+                            <p>We'll notify you when there are new products we'd like you to know first!</p>
+                            <div class="row">
+                                <div class="col-md-4 offset-md-4">
+                                <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter your email address" aria-label="Enter your email address" aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">JOIN</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               <footer>
+                   Made with <i class="fas fa-heart"></i> by Nicole Esposo
+               </footer>
+
+            </div>
+        </div>
+        
+
+        <!-- script -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    
+        <!-- external bootstrap javascript -->
+        <script src="assets/js/bootstrap.min.js"></script>
+
+
+
+        <!-- JQUERY FOR MENU -->
+        <script>
+            var slide_wrp 		= ".side-menu-wrapper"; //Menu Wrapper
+            var open_button 	= ".menu-open"; //Menu Open Button
+            var close_button 	= ".menu-close"; //Menu Close Button
+            var overlay 		= ".menu-overlay"; //Overlay
+
+            //Initial menu position
+            $(slide_wrp).hide().css( {"right": -$(slide_wrp).outerWidth()+'px'}).delay(50).queue(function(){$(slide_wrp).show()}); 
+
+            $(open_button).click(function(e){ //On menu open button click
+                e.preventDefault();
+                $(slide_wrp).css( {"right": "0px"}); //move menu right position to 0
+                setTimeout(function(){
+                    $(slide_wrp).addClass('active'); //add active class
+                },50);
+                $(overlay).css({"opacity":"1", "width":"100%"});
+            });
+
+            $(close_button).click(function(e){ //on menu close button click
+                e.preventDefault();
+                $(slide_wrp).css( {"right": -$(slide_wrp).outerWidth()+'px'}); //hide menu by setting right position 
+                setTimeout(function(){
+                    $(slide_wrp).removeClass('active'); // remove active class
+                },50);
+                $(overlay).css({"opacity":"0", "width":"0"});
+            });
+
+            $(document).on('click', function(e) { //Hide menu when clicked outside menu area
+                if (!e.target.closest(slide_wrp) && $(slide_wrp).hasClass("active")){ // check menu condition
+                    $(slide_wrp).css( {"right": -$(slide_wrp).outerWidth()+'px'}).removeClass('active');
+                    $(overlay).css({"opacity":"0", "width":"0"});
+                }
+            });
+        </script>
+
+    </body>
+</html>
